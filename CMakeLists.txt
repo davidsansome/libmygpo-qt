@@ -27,7 +27,7 @@ if (CMAKE_COMPILER_IS_GNUCXX)
     ADD_DEFINITIONS( -Wcast-align -Wchar-subscripts -Wpointer-arith
        -Wwrite-strings -Wpacked -Wformat-security -Wmissing-format-attribute
        -Wold-style-cast -Woverloaded-virtual -Wnon-virtual-dtor  -Wall -Wextra
-       -Wformat=2 -Wundef -Wlogical-op -Wstack-protector -Wmissing-include-dirs
+       -Wformat=2 -Wundef -Wstack-protector -Wmissing-include-dirs
        -Winit-self -Wunsafe-loop-optimizations  -ggdb3 -fno-inline -DQT_STRICT_ITERATORS )
     if ( NOT WIN32 )
         add_definitions( -fvisibility=hidden )
