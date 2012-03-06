@@ -26,7 +26,7 @@
 #include <QString>
 #include <QDateTime>
 
-#include <serializer.h>
+#include <qjson/serializer.h>
 
 #include "JsonCreator.h"
 

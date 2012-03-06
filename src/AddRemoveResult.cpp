@@ -20,7 +20,7 @@
 * USA                                                                      *
 ***************************************************************************/
 
-#include <parser.h>
+#include <qjson/parser.h>
 
 #include "AddRemoveResult.h"
 #include "AddRemoveResult_p.h"

@@ -20,7 +20,7 @@
 
 #include "DeviceSyncResult_p.h"
 
-#include <parser.h>
+#include <qjson/parser.h>
 
 using namespace mygpo;
 
